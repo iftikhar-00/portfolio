@@ -764,6 +764,13 @@ footer svg:hover path{
   fill: #FFD000;
 }
 
+.footer-section{
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 124 176 / var(--tw-bg-opacity));
+  background-image: url('../images/Texture.png');
+  background-blend-mode: overlay;
+}
+
 .fixed{
   position: fixed;
 }
@@ -1235,10 +1242,6 @@ footer svg:hover path{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/images\/texture\.png\'\)\]{
-  background-image: url('../images/texture.png');
-}
-
 .bg-radial-gradient-dealer{
   background-image: radial-gradient(70.71% 70.71% at 50% 50%, rgba(216, 190, 255, 0.20) 0%, rgba(99, 0, 250, 0.20) 100%);
 }
@@ -1357,16 +1360,8 @@ footer svg:hover path{
   text-decoration-line: underline;
 }
 
-.underline-offset-2{
-  text-underline-offset: 2px;
-}
-
 .underline-offset-4{
   text-underline-offset: 4px;
-}
-
-.underline-offset-8{
-  text-underline-offset: 8px;
 }
 
 .bg-blend-overlay{
@@ -1430,18 +1425,9 @@ footer svg:hover path{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:text-primary-yellow:hover{
-  --tw-text-opacity: 1;
-  color: rgb(255 208 0 / var(--tw-text-opacity));
-}
-
 .hover\:text-primary-yellow-hover:hover{
   --tw-text-opacity: 1;
   color: rgb(244 199 0 / var(--tw-text-opacity));
-}
-
-.focus\:outline:focus{
-  outline-style: solid;
 }
 
 .focus\:outline-primary-blue:focus{
